@@ -27,7 +27,7 @@ class RATobject:
         return self.int_rat[int_rat_update_index]
     
     def fp_rat_get(self, fp_reg):
-        # get current value in int_reg location
+        # get current value in fp_reg location
         fp_rat_update_index = int(fp_reg.split("F")[1])
         return self.fp_rat[fp_rat_update_index]
     
